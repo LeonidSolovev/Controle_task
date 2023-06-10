@@ -6,3 +6,4 @@
 4. Comments to methods
 5. UserInput and program structure
 6. Tested and formatted
+7. Initial array print added

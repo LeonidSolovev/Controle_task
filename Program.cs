@@ -3,7 +3,8 @@ string[] initialArray = new string[] {GetUserInput("Введите первое 
  GetUserInput("Введите третье значение: ")};
 
 string[] result = StringFilter(initialArray, 3);
-
+PrintArray(initialArray);
+Console.Write("->");
 PrintArray(result);
 
 // Отбор строк
