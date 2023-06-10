@@ -4,3 +4,4 @@
 2. Block diagram
 3. "StringFilter" and "PrintArray" created
 4. Comments to methods
+5. UserInput and program structure

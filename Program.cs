@@ -1,7 +1,10 @@
 ﻿
+string[] initialArray = new string[] {GetUserInput("Введите первое значение: "), GetUserInput("Введите второе значение: "),
+ GetUserInput("Введите третье значение: ")};
 
+string [] result = StringFilter(initialArray, 3);
 
-
+PrintArray(result);
 
 // Отбор строк
 string [] StringFilter(string [] stringsArray, int min)
@@ -20,7 +23,6 @@ string [] StringFilter(string [] stringsArray, int min)
 
     return newArray;
 }
-
 // Печать массива
 void PrintArray(string [] arr)
 {
@@ -28,3 +30,12 @@ void PrintArray(string [] arr)
     Console.Write(String.Join(", ", arr));
     Console.Write("]");
 }
+
+// Ввод данных через консоль
+string GetUserInput(string message)
+{
+    Console.Write(message);
+    string userMessage = Console.ReadLine();
+    return userMessage;
+}
+
