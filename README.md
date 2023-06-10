@@ -7,3 +7,4 @@
 5. UserInput and program structure
 6. Tested and formatted
 7. Initial array print added
+8. Mistake in StringFilter fixed
