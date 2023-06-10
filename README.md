@@ -2,3 +2,4 @@
 
 1. Initialized
 2. Block diagram
+3. "StringFilter" and "PrintArray" created
