@@ -14,7 +14,7 @@ string[] StringFilter(string[] stringsArray, int min)
     string[] newArray = new string[0];
     for (int i = 0; i < stringsArray.Length; i++)
     {
-        if (stringsArray[i].Length < min)
+        if (stringsArray[i].Length <= min)
         {
             Array.Resize(ref newArray, position + 1);
             newArray[position] = stringsArray[i];
