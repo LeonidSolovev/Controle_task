@@ -3,3 +3,4 @@
 1. Initialized
 2. Block diagram
 3. "StringFilter" and "PrintArray" created
+4. Comments to methods

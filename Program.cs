@@ -3,7 +3,7 @@
 
 
 
-
+// Отбор строк
 string [] StringFilter(string [] stringsArray, int min)
 {
     int position = 0;
